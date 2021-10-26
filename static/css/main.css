@@ -14,9 +14,17 @@ table {
 	text-align: center;
 	margin: auto;
 	border: 1px solid black;
+	table-layout: fixed;
 }
 
 tr {
 	border: 1px solid black;
+	padding: 10em;
+	margin: 10em;
 }
 
+th, td {
+	padding: 1em;
+	max-width: 300px;
+	table-layout: fixed;
+}
