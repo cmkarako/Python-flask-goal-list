@@ -1,0 +1,22 @@
+table {
+	text-align: center;
+}
+
+.content {
+	text-align: center;
+}
+
+body {
+	text-align: center;
+}
+
+table {
+	text-align: center;
+	margin: auto;
+	border: 1px solid black;
+}
+
+tr {
+	border: 1px solid black;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Christine Castorena Developer Portfolio - Python - Javascript - HTML/CSS">
+		<meta name="author" content="Christine Castorena">
+		<meta name="keywords" content="web developer, python developer, javascript, sofware engineer">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>Python Calculator</title>
+		<link rel="stylesheet" type="text/css"  href=" {{ url_for('static',filename = "css/main.css") }} ">
+
+	</head>
+
+
+	<body>
+		
+
+		<main>
+			<div class="content">
+
+
+			<h1>Update Task</h1><br/>
+
+		
+			<form actions="/update/{{task.id}} " method="POST">
+				<input type="text" name="content" id="content" value="{{task.content}}"> 
+				<input type="submit" value="Update Task">
+			</form>
+
+			</div> 
+		</main>
+
+		<footer class="footer">
+		</footer>
+
+
+</body>
+
+
+</html>
